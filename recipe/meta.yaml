@@ -1,5 +1,5 @@
 {% set name = "smqtk-detection" %}
-{% set version = "0.21.0" %}
+{% set version = "0.22.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/smqtk_detection-{{ version }}.tar.gz
-  sha256: 293dc7b5dd6e9f9710bdeac6c8c2956d68ab4e2de2c0c914a01ed4214904dfce
+  sha256: 5951e22c1224452bfd38a54662c33bba861a4486b6fe21f67341aed90674a2f5
 
 build:
   noarch: python
